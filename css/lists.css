@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Beastly&family=Rubik+Wet+Paint&display=swap');
+body{
+	background-color: lightgreen;
+}
+p{
+	font-size: 50px;
+	background-color: yellow;
+	color: green;
+	font-family: "Rubik Beastly", system-ui;;
+}
+ul,ol,dl{
+	font-size: 24px;
+	color: purple;
+}
+.ul1 li{
+	padding-left: 10px;
+}
+.ul2 li: :marker{
+	color: black;
+	font-size: 1.1em;
+}
+ol{
+	margin-left: 100px;
+}
+@counter-style emoji {
+  system: cyclic;
+  symbols: 😀 👻 👽 👾 🤖 🎃 😹 👋 👀 💋;
+  suffix: " ";
+}
+
+.ul3 {
+  list-style: emoji;
+}
+
+dl{
+	font-family: "Rubik Wet Paint", system-ui;
+}
+
+@counter-style lower-ukrainian {
+system: alphabetic;
+symbols: '\430' '\431' '\432' '\433' '\434' '\435' '\454' '\436' '\437' '\438' '\456' '\43A' '\43B' '\43C' '\43D' '\43E' '\43F' '\440' '\441' '\442' '\443' '\444' '\445' '\446' '\447' '\448' '\44E' '\44F';
+/* symbols: 'а' 'б' 'в' 'г' 'д' 'е' 'є' 'ж' 'з' 'и' 'і'; */
+suffix: ') ';
+}
+.ul4{
+	list-style: lower-ukrainian;
+}

@@ -1,0 +1,95 @@
+body{
+	background-color: lightblue;
+}
+p{
+	font-size: 50px;
+	background-color: lightsalmon;
+	color: khaki;
+	display: block;
+}
+span{
+	border: dashed 2px green;
+	display: inline;
+}
+ul{
+	list-style: none;
+}
+ul li {
+	background-color: lightcyan;
+	display: inline-block;
+}
+a{
+	text-decoration: none;
+	font-size: 24px;
+	border: dotted 3px green;
+	padding: 5px;
+	background-color: lightgreen;
+}
+a:hover{
+	background-color: yellow;
+}
+#first{
+	background-color: lightpink;
+	width: 500px;
+	height: 500px;
+	border-width: 30px;
+	border-style: dashed dotted;
+	border-color: yellow blue orange lightgrey;
+	font-size: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin-bottom: 50px;
+}
+#second{
+	width: 700px;
+	height: 700px;
+	background-color: darkolivegreen;
+	margin: 50px;
+	padding: 100px;
+	border-width: 30px;
+	border-style: ridge;
+	border-color: blue;
+}
+#third,#fourth{
+	width: 900px;
+	height: 200px;
+	margin: 50px;
+	background-color: lightcyan;
+	border-width: 30px;
+	border-style: double solid;
+}
+#fourth{
+	border-width: 30px;
+	border-style: outset inset;
+}
+#five{
+	width: 900px;
+	height: 550px;
+	padding: 20px;
+	background-color: lightblue;
+	border-color: blue;
+	margin-left: 100px;
+	margin-top: 100px;
+}
+#six{
+	width: 700px;
+	height: 400px;
+	padding: 50px;
+	background-color: lightblue;
+	border-color: orange;
+	margin-left: 20px;
+}
+#seven{
+	width: 400px;
+	height: 200px;
+	padding: 100px;
+	background-color: lightblue;
+	border-color: purple;
+	margin-left: 30px;
+}
+#five,#six,#seven{
+	border-width: 8px;
+	border-style: inset;
+}  
